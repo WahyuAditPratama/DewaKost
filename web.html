@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dewa Kost</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?modern,room') no-repeat center center/cover;
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin: 10px 0 20px;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .feature {
+            flex: 1;
+            margin: 0 10px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .feature img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+
+        .cta {
+            text-align: center;
+        }
+
+        .cta button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dewa Kost</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#features">Fasilitas</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div>
+            <h2>Selamat Datang di Dewa Kost</h2>
+            <p>Hunian Modern, Kenyamanan Tanpa Batas.</p>
+            <button>Pesan Sekarang</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="about" class="section">
+            <h3>Tentang Dewa Kost</h3>
+            <p>Dewa Kost menawarkan hunian premium dan modern untuk pria yang mencari kenyamanan, kemudahan, dan gaya. Terletak di lokasi strategis, kost kami cocok untuk profesional, mahasiswa, dan pekerja urban.</p>
+        </div>
+
+        <div id="features" class="section">
+            <h3>Fasilitas</h3>
+            <div class="features">
+                <div class="feature">
+                    <img src="https://img.icons8.com/ios-filled/100/000000/bedroom.png" alt="Kamar Nyaman">
+                    <h4>Kamar Nyaman</h4>
+                    <p>Kamar luas, ber-AC dengan desain interior modern.</p>
+                </div>
+                <div class="feature">
+                    <img src="https://img.icons8.com/ios-filled/100/000000/wifi.png" alt="Wi-Fi Cepat">
+                    <h4>Wi-Fi Cepat</h4>
+                    <p>Tetap terhubung dengan akses internet kecepatan tinggi.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="section cta">
+            <h3>Siap untuk Tinggal?</h3>
+            <button>Hubungi Kami</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Dewa Kost. Hak cipta dilindungi.</p>
+    </footer>
+</body>
+</html>
